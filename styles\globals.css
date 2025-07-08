@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+.hero {
+  background-image: url('https://via.placeholder.com/1500x500');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features li {
+  margin-right: 20px;
+}
+
+.features li:before {
+  content: '\2713';
+  margin-right: 10px;
+  color: #333;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+```
+
+This is a basic ecommerce website using Next.js. It includes a homepage with a hero section, features section, and footer. It also includes a products page that displays a list of products with their names and prices. The website has a simple navigation menu with links to the homepage, products page, and cart page. The website uses CSS to style the layout and design.
